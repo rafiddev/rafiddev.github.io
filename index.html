@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafid Rahman</title>
+    <meta
+      name="description"
+      content="Rafid Rahman — a beginner front-end developer with hands-on gate security, crowd management, and ticketing-team experience, and a lifelong love of live music and events."
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23241233'/%3E%3Ccircle cx='50' cy='50' r='28' fill='%23FF3E82'/%3E%3Ccircle cx='50' cy='50' r='14' fill='%23FFF3DA'/%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============ NAV ============ -->
+    <nav class="nav" id="nav">
+      <a href="#top" class="nav__brand" aria-label="Back to top">
+        <span class="nav__brand-mark">RR</span>
+        <span class="nav__brand-text">Rafid Rahman</span>
+      </a>
+
+      <button
+        class="nav__toggle"
+        id="navToggle"
+        aria-expanded="false"
+        aria-controls="navMenu"
+        aria-label="Toggle menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Building</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <header class="hero" id="top">
+        <div class="hero__inner">
+          <p class="eyebrow">
+            <span class="eyebrow__dot"></span>Developer x Crew
+          </p>
+          <h1 class="hero__title">Hi, I'm <br /><span>Rafid Rahman</span></h1>
+          <p class="hero__subtitle">
+            <!-- own words -->
+            A beginner front-end developer and a lifelong live-event addict.
+            I've spent days in the events as so many roles, sometimes as an
+            audience and sometimes as a crew from the organizing panel. Love to
+            work hard, party harder!
+          </p>
+
+          <div class="hero__actions">
+            <a href="#shows" class="btn btn--primary"
+              >See my event experiences</a
+            >
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+
+          <dl class="hero__ticket">
+            <div>
+              <dt>Based in</dt>
+              <dd>Dhaka, Bangladesh</dd>
+            </div>
+            <div>
+              <dt>Open for</dt>
+              <dd>Volunteering, Operations, Web Development</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd>Available Now</dd>
+            </div>
+            <div>
+              <dt>Currently obsessed with</dt>
+              <dd>
+                <!-- TODO -->
+                Currents — Lana Del Rey
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </header>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about" id="about">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Backstage</p>
+          <h2 class="section-title">About me</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__badge" aria-hidden="true">
+            <div class="about__badge-photo">RR</div>
+            <p class="about__badge-label">All access</p>
+            <p class="about__badge-id">ID · 21</p>
+          </div>
+
+          <div class="about__copy">
+            <p>
+              I'm just getting started with front-end web development — still
+              learning the fundamentals, still making mistakes, and still
+              enjoying every bit of it. But long before I touched HTML, I was
+              already showing up early to shows: helping run the gate, checking
+              tickets and wristbands, and working entry security
+              shoulder-to-shoulder with the ticketing team.
+            </p>
+            <p>
+              I'm available for any kind of organization relevant to events
+              because that's exactly where I want to be: on the ground, making
+              sure the right people get in, problems get solved fast, and the
+              show starts on time. Scroll down for the receipts — literally,
+              some of them are tickets.
+            </p>
+
+            <ul class="about__facts">
+              <li>
+                <span>Front-end</span>Beginner — learning HTML, CSS, Bootstrap,
+                JavaScript &amp; React (Ongoing)
+              </li>
+              <li>
+                <span>Events</span>Hands-on gate security &amp; ticketing
+                collaboration, Backstage Artist Management, Crowd Management
+              </li>
+              <li>
+                <span>Off the clock</span>Concerts, festivals, chasing the next
+                lineup announcement
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="experience" id="experience">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>On the ground</p>
+          <h2 class="section-title">Event &amp; Gate Experience</h2>
+          <p class="section-lede">
+            What I've actually done at shows, not just watched.
+          </p>
+        </div>
+
+        <div class="experience__card">
+          <ul class="experience__list">
+            <li>
+              <span class="experience__icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Gate &amp; Entry Security</h3>
+                <p>
+                  Checked tickets and wristbands at the door, managed queue
+                  flow, and kept entry moving during peak rush.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="experience__icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Artist &amp; Crowd Management</h3>
+                <p>
+                  Helped Artist with their needs by providing them snacks,
+                  connecting with fans in a proper way, ensuring their
+                  instrumentals and accessories are okay. Also helped my team by
+                  managing the crowd in a gentle way
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="experience__icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Direct Ticketing-Team Collaboration</h3>
+                <p>
+                  Worked side-by-side with the box office and ticketing team to
+                  flag invalid tickets, resolve duplicate scans, and sort out
+                  entry disputes on the spot.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="experience__icon" aria-hidden="true">✓</span>
+              <div>
+                <h3>Calm Under Pressure</h3>
+                <p>
+                  Handled crowding, confused guests, and last-minute changes
+                  without slowing the line down — and knew when to escalate to
+                  the right person fast.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="skills" id="skills">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Toolkit</p>
+          <h2 class="section-title">What I Bring</h2>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skill-card skill-card--ops">
+            <h3>Event &amp; operations</h3>
+            <ul class="tag-list">
+              <li>Gate &amp; Entry Security</li>
+              <li>Backstage &amp; Crowd Management</li>
+              <li>Ticket Validation</li>
+              <li>Team Collaboration</li>
+              <li>Crowd Flow</li>
+              <li>Problem-solving on the Spot</li>
+            </ul>
+          </div>
+          <div class="skill-card skill-card--dev">
+            <h3>Front-end (comfortable with)</h3>
+            <ul class="tag-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Bootstrap5</li>
+              <li>Vanilla JavaScript</li>
+              <li>Git &amp; GitHub Basics</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-card skill-card--dev">
+            <h3>Front-End (currently learning)</h3>
+            <ul class="tag-list tag-list--learning">
+              <li>Advance JavaScript</li>
+              <li>React</li>
+              <li>Tailwind</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="projects" id="projects">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Still tuning</p>
+          <h2 class="section-title">What I'm Building</h2>
+          <p class="section-lede">
+            Small, Honest projects — I'm a beginner and some of these are
+            practice.But Currently working with one Production
+          </p>
+        </div>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__art">01</div>
+            <div class="project-card__body">
+              <h3>Multipurpose Websites</h3>
+              <p>
+                Built with plain HTML, CSS and JavaScript — no frameworks yet —
+                to practice layout, responsiveness, and clean code while putting
+                together this application.
+              </p>
+              <ul class="tag-list tag-list--mini">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__art">02</div>
+            <div class="project-card__body">
+              <h3>Live Event Website</h3>
+              <p>
+                Building a website for the latest update of Events in the Town.
+              </p>
+              <ul class="tag-list tag-list--mini">
+                <li>CSS</li>
+                <li>Typography</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__art">03</div>
+            <div class="project-card__body">
+              <h3>Band Website</h3>
+              <p>A project for a reknowned phychedelic band.</p>
+              <ul class="tag-list tag-list--mini">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Tailwind</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ SHOWS: AUDIENCE + CREW ============ -->
+      <section class="shows" id="shows">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Doors open</p>
+          <h2 class="section-title">Shows I've lived</h2>
+          <p class="section-lede">
+            Two kinds of nights: the ones I bought a ticket for, and the ones I
+            worked for.
+          </p>
+        </div>
+        <!-- ---- Track 1: Crew / Volunteer ---- -->
+        <div class="shows__track">
+          <h3 class="shows__track-title shows__track-title--crew">
+            <span class="shows__track-tag shows__track-tag--crew">CREW</span>
+            Behind the Barricade — As a Volunteer
+          </h3>
+
+          <ul class="cards cards--badge">
+            <li class="card card--badge">
+              <div class="card__photo card__photo--badge">
+                <span
+                  class="card__photo-fallback card__photo-fallback--crew"
+                  aria-hidden="true"
+                  >&#9889;</span
+                >
+                <img
+                  src="./crew-1.jpg"
+                  alt="Volunteering at City Sound Festival"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__body">
+                <span class="card__pill card__pill--crew">Crew Pass</span>
+                <p class="card__role">Backstage Crew</p>
+                <h4 class="card__band">Joruri Shongjog</h4>
+                <p class="card__venue">
+                  Anti-Terrorism Raju Memorial Sculpture, TSC, University of
+                  Dhaka
+                </p>
+                <p class="card__date">August 23, 2024</p>
+                <p class="card__desc">
+                  Played multiple role for this crowdfunding charity concert
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--badge">
+              <div class="card__photo card__photo--badge">
+                <span
+                  class="card__photo-fallback card__photo-fallback--crew"
+                  aria-hidden="true"
+                  >&#9889;</span
+                >
+                <img
+                  src="./crew-2.jpg"
+                  alt="Volunteering at Indie Nights"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__body">
+                <span class="card__pill card__pill--crew">Crew Pass</span>
+                <p class="card__role">Entry &amp; Ticket Validation</p>
+                <h4 class="card__band">Dhaka Retro</h4>
+                <p class="card__venue">Senaprangan — Dhaka</p>
+                <p class="card__date">September 2024</p>
+                <p class="card__desc">
+                  Worked the front gate scanning tickets alongside the box
+                  office team, flagged a few duplicate scans, and helped late
+                  arrivals get sorted without holding up the line.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--badge">
+              <div class="card__photo card__photo--badge">
+                <span
+                  class="card__photo-fallback card__photo-fallback--crew"
+                  aria-hidden="true"
+                  >&#9889;</span
+                >
+                <img
+                  src="./crew-3.jpg"
+                  alt="Volunteering at a community music mela"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__body">
+                <span class="card__pill card__pill--crew">Crew Pass</span>
+                <p class="card__role">Crowd &amp; Gate Security</p>
+                <h4 class="card__band">Dhaka Dreams - KAAVISH</h4>
+                <p class="card__venue">Senaprangan — Dhaka</p>
+                <p class="card__date">November 15, 2024</p>
+                <p class="card__desc">
+                  Managed a packed entry point on a high-traffic night, kept
+                  communication open with the ticketing desk the whole shift.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ---- Track 2: Audience ---- -->
+        <div class="shows__track">
+          <h3 class="shows__track-title shows__track-title--aud">
+            <span class="shows__track-tag shows__track-tag--aud">GA</span>
+            On the rail — as the audience
+          </h3>
+
+          <ul class="cards cards--ticket">
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./GA-1.jpg"
+                  alt="Dhaka Psychedelia event poster — an astronaut helmet reflecting the Shonar Bangla Akash and Karnival logos"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">GA Ticket</span>
+                <h4 class="card__band">Dhaka Psychedelia</h4>
+                <p class="card__show">ft. Shonar Bangla Akash &amp; Karnival</p>
+                <p class="card__venue">Liberation War Museum — Dhaka</p>
+                <p class="card__date">6 January, 2023</p>
+                <p class="card__desc">
+                  An open-air, museum-grounds set built entirely around trippy
+                  visuals and a warm, sing-along crowd.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./GA-2.jpg"
+                  alt="The School of Rock Volume 01 event poster with the performing artists"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">GA Ticket</span>
+                <h4 class="card__band">The School of Rock — Vol. 01</h4>
+                <p class="card__show">
+                  ft. Warfaze, Shironamhin, avoidRafa &amp; more
+                </p>
+                <p class="card__venue">ICCB Hall 04 — Bashundhara, Dhaka</p>
+                <p class="card__date">September 15, 2023</p>
+                <p class="card__desc">
+                  A lineup stacked with the bands that basically wrote the
+                  syllabus for Dhaka rock.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./GA4.jpg"
+                  alt="The Ultimate Rock Fest 2023 event poster with the performing bands"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">GA Ticket</span>
+                <h4 class="card__band">The Ultimate Rock Fest 2023</h4>
+                <p class="card__show">
+                  ft. Aurthohin, Warfaze, Shironamhin &amp; more
+                </p>
+                <p class="card__venue">ICCB Hall-4 — Bashundhara, Dhaka</p>
+                <p class="card__date">July 28, 2023</p>
+                <p class="card__desc">
+                  Eight bands, one hall, one very long night — the kind that
+                  leaves your ears ringing for two days after.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./GA5.jpg"
+                  alt="Hyena Express Experience event poster"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">GA Ticket</span>
+                <h4 class="card__band">Hayena Express Experience</h4>
+                <p class="card__show">by Shonar Bangla Circus</p>
+                <p class="card__venue">
+                  Liberation War Museum — Agargaon, Dhaka
+                </p>
+                <p class="card__date">3 November, 2022</p>
+                <p class="card__desc">
+                  A whole evening built around one wild, growling set — more
+                  experience than concert.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./etodin_pore.jpg"
+                  alt="Nemesis 25th anniversary concert poster — Eto Diner Poreo Je"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">Audience</span>
+                <h4 class="card__band">Nemesis — 25 Years</h4>
+                <p class="card__show">
+                  "Eto Diner Poreo Je" · presented by Carpe Diem
+                </p>
+                <p class="card__venue">
+                  Winter Garden, InterContinental — Dhaka
+                </p>
+                <p class="card__date">May 22, 2026</p>
+                <p class="card__desc">
+                  Twenty-five years of a band that basically raised a generation
+                  of Dhaka rock — singing along to every word.
+                </p>
+              </div>
+            </li>
+
+            <li class="card card--ticket">
+              <div class="card__photo">
+                <span class="card__photo-fallback" aria-hidden="true"
+                  >&#9835;</span
+                >
+                <img
+                  src="./raincheck.jpg"
+                  alt="Rain Check event poster, a Let's Vibe production, with the full band lineup"
+                  loading="lazy"
+                  onerror="this.style.display = 'none'"
+                />
+              </div>
+              <div class="card__tear" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="card__pill card__pill--aud">GA Ticket</span>
+                <h4 class="card__band">Rain Check</h4>
+                <p class="card__show">
+                  A Let's Vibe production · ft. Nemesis, Meghdol, Karnival &amp;
+                  more
+                </p>
+                <p class="card__venue">Courtside, Madani Avenue — Dhaka</p>
+                <p class="card__date">June 26, 2026</p>
+                <p class="card__desc">
+                  Six bands and a rooftop full of people who didn't care that it
+                  was pouring outside.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="tear-divider" aria-hidden="true"></div>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="contact" id="contact">
+        <div class="section-head">
+          <p class="eyebrow"><span class="eyebrow__dot"></span>Last call</p>
+          <h2 class="section-title">Get in touch</h2>
+          <p class="section-lede">
+            Open to operations, gate, and front-end roles at any event, venue,
+            or ticketing organization. Reach out below.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <a
+            class="contact__link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=rafidwebdev@gmail.com"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact__label">Email</span>
+            <span class="contact__value">rafidwebdev@gmail.com ↗</span>
+          </a>
+          <a
+            class="contact__link"
+            href="https://github.com/rafiddev"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">https://github.com/rafiddev</span>
+          </a>
+          <a
+            class="contact__link"
+            href="https://www.linkedin.com/in/atiqurrahmanrafid/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value"
+              >linkedin.com/in/atiqurrahmanrafid/ ↗</span
+            >
+          </a>
+          <a
+            class="contact__link"
+            href="./assests/Rafid_CV.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact__label">CV</span>
+            <span class="contact__value">View CV ↗</span>
+          </a>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built by Rafid Rahman · <span id="year"></span></p>
+      <p class="footer__note">
+        Live the Life You Love or Love the Life You Live .
+      </p>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
